@@ -13,7 +13,6 @@ state("The Underground Man 2")
  
  start 
  {
-	 print("" + vars.hui + " " + current.antimenustarter + " " + current.nosenumber + " " + current.leftshnyaga + " " + current.rightshnyaga + " "); 
      if ( current.antimenustarter == 597) vars.hui = 0;
      if (vars.hui == 10) {vars.hui = 0; return true;}
 	 if (vars.hui > 0 && vars.hui < 10) vars.hui = vars.hui + 1;
